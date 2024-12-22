@@ -1,0 +1,32 @@
+.modal-backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.modal--content {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  &__wrapper {
+    margin: 0 18px;
+  }
+}
+
+.modal--content__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

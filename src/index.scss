@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Calibri";
+  src: url("../src/assets/fonts/Calibri/Calibri\ Light.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT";
+  src: url("../src/assets/fonts/helvetica-neue-lt-pro-2-cufonfonts/HelveticaNeueLTProBd.otf");
+}
+
+input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+
+input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+}
+
+textarea::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+textarea:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+textarea[disabled] {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}

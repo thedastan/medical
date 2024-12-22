@@ -1,0 +1,14 @@
+.image {
+  backdrop-filter: blur(11px);
+  top: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+
+  &.active {
+    display: none;
+    animation: scale-display 0.3s;
+  }
+}

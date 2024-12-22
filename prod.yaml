@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+
+  web:
+    build:
+      context: .
+    restart: always
+    command: sh -c "yarn start"
+    ports:
+      - "3000:3000"
+  
+  swag:
+    image: linuxserver/swag
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Zurich
+      - URL=medicalswitzerland.com
+      - VALIDATION=http
+      - ONLY_SUBDOMAINS=false
+      - STAGING=false
+    volumes:
+      - './nginx/prod.conf:/config/nginx/site-confs/default.conf'
+    depends_on:
+      - web
+    ports:
+      - "80:80"
+      - "443:443"

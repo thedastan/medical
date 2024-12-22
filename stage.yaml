@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+
+  web:
+    build:
+      context: ./stage/Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    command: sh -c "npm start"

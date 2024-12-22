@@ -1,0 +1,75 @@
+{
+  "name": "medicalswitzerland",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.18",
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^5.0.17",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.23",
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "axios": "^1.3.5",
+    "browser-image-compression": "^2.0.2",
+    "compressorjs": "^1.2.1",
+    "craco": "^0.0.3",
+    "framer-motion": "^10.10.0",
+    "i18next": "^22.4.15",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-cropper": "^2.3.2",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-i18next": "^12.2.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^9.3.2",
+    "thunk": "^0.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/fancybox": "^3.5.3",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-slick": "^0.23.10"
+  }
+}

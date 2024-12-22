@@ -1,0 +1,27 @@
+$transitionTime: "1" ".5", "2" ".7", "3" "1", "4" "1.2", "5" "1.5";
+
+.popupMessage {
+  transform: translateX(150vw);
+  transition: all 0.55s;
+  opacity: 0;
+
+  &.transform {
+    transform: translateX(0);
+    opacity: 1;
+    top: "50px";
+  }
+
+  &-link {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    margin-bottom: 46px;
+    font-weight: 600;
+
+    &.active {
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+    }
+  }
+}
